@@ -1,0 +1,3 @@
+Crystal	Allele	Peptide_template	Peptide_model	Core_template	Core_model	Alignment_score	Identities	Identical_pockets
+1t5x	DRB1*01:01	AAYSDQATPLLLSPR	IPTAFSIGKTYKPEE	FSIGKTYKP	YSDQATPLL	0	2	1
+The model was completed
