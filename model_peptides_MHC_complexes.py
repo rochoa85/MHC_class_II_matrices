@@ -33,7 +33,7 @@ import argparse
 import subprocess
 from random import shuffle
 
-# Third-party modules
+# Third-party modules (Ubuntu package: sudo apt-get install python3-biopython)
 from Bio.PDB import *
 from Bio import pairwise2
 
