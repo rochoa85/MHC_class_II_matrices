@@ -1,4 +1,6 @@
-# Package to model peptides bound to MHC class II complexes and run backrub simulations
+# MHC class II scoring-matrices
+
+## Package to predict core region of peptides bound to MHC class II structure, model new peptides and run simulations
 
 From publication *"Scoring-matrices from structural descriptors improve MHC class II motifs of bound peptides"*
 Bioinformatics Journal (Oxford)
