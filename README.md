@@ -25,7 +25,8 @@ One basic way to run the script is thorugh:
                                        
 The arguments are
 
-`optional arguments:
+```
+optional arguments:
   -h, --help   show this help message and exit
   -l LIST_PEP  List with the peptides that want to be analyzed
   -m MODE      Choose a mode to run the script from thee options: 1) core, 2)
@@ -33,7 +34,8 @@ The arguments are
   -r ROSETTA   Version of Rosetta that will be implemented
   -a ALLELE    Allele of the MHC class II DRB1 that will be selected from four
                options: 1) 0101, 2) 0301, 3) 0401, 4) 1501
-  -o OUTPUT    Name of the output file with the statistics results`
+  -o OUTPUT    Name of the output file with the statistics results
+ ```
 
 ## Example
 
