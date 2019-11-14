@@ -807,19 +807,24 @@ if __name__ == '__main__':
     
     # Information crystals
     crystals=[x.strip() for x in open("list_MHC_crystals.txt")]
+    # File to store the prediction of the cores
+    report_cores=open("report_prediction_cores.txt","w")
+    report_cores.write("Peptide\tCore_Scoring_Matrix\tCore_Sequence_Motif\n")
     
     # Iterate over the list of peptides
     for pep_to_model in list_peptides:
         
         # 1. Predict the cores using one of the methodologies    
-        print("Original peptid sequence: {}".format(pep_to_model))
+        print("Original peptide sequence: {}".format(pep_to_model))
         
         core_final=check_descriptor_struct(pep_to_model,"contacts")
         print("Predicted core with structural descriptors: ",core_final)
         
         core_motif=check_motif_seq(pep_to_model,allele_short)
         print("Predicted core with sequence-based motifs: ",core_motif)
-        print()
+        
+        # Print the results in a file
+        report_cores.write("{}\t{}\t{}\n".format(pep_to_model,core_final,core_motif))
         
         if args.mode=="model" or args.mode=="backrub":
             # 2. Identification of the template and model peptides
@@ -840,5 +845,6 @@ if __name__ == '__main__':
                 print("Many amino acids to model on peptide {} ...".format(pep_to_model))
                 statsFile.write("The model failed because many aminoacids are required to be predicted\n")
                 
-    # Close the report file
+    # Close the report files
+    report_cores.close()
     statsFile.close()
