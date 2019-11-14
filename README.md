@@ -2,10 +2,10 @@
 
 ## Package to predict core region of peptides bound to MHC class II structure, model new peptides and run simulations
 
-From publication *"Scoring-matrices from structural descriptors improve MHC class II motifs of bound peptides"*
-Bioinformatics Journal (Oxford)
-Authors: Rodrigo Ochoa, Roman Laskowski, Alessandro Laio, Janet Thornton, Pilar Cossio
-Year: 2019
+* From publication *"Scoring-matrices from structural descriptors improve MHC class II motifs of bound peptides"*
+* Bioinformatics Journal (Oxford)
+* Authors: Rodrigo Ochoa, Roman Laskowski, Alessandro Laio, Janet Thornton, Pilar Cossio
+* Year: 2019
 
 ## Purpose
 
