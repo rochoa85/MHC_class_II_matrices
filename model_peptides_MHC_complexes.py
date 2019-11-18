@@ -5,7 +5,7 @@ Package to model peptides bound to MHC class II complexes and run backrub simula
 
 From publication "Scoring-matrices from structural descriptors improve MHC class II motifs of bound peptides"
 Journal: Oxford Bioinformatics 
-Authors: Rodrigo Ochoa, Roman Laskowski, Alessandro Laio, Janet Thornton, Pilar Cossio
+Authors: Rodrigo Ochoa, Roman Laskowski, Janet Thornton, Pilar Cossio
 Year: 2019
 
 Third-party tools required:
@@ -19,7 +19,7 @@ Rosetta Commons: https://www.rosettacommons.org/software/license-and-download
 ########################################################################################
 
 __author__ = "Rodrigo Ochoa"
-__credits__ = ["Rodrigo Ochoa", "Roman Laskowski", "Alessandro Laio","Janet Thornton","Pilar Cossio"]
+__credits__ = ["Rodrigo Ochoa", "Roman Laskowski","Janet Thornton","Pilar Cossio"]
 __license__ = "GPL"
 __version__ = "1.0"
 __email__ = "rodrigo.ochoa@udea.edu.co"
