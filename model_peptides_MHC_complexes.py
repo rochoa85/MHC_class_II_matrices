@@ -3,10 +3,10 @@
 """
 Package to model peptides bound to MHC class II complexes and run backrub simulations
 
-From publication "Scoring-matrices from structural descriptors improve MHC class II motifs of bound peptides"
+From publication "Scoring-matrices calculated from structural descriptors improve MHC class II motifs for predicting bound peptides"
 Journal: Oxford Bioinformatics 
 Authors: Rodrigo Ochoa, Roman Laskowski, Janet Thornton, Pilar Cossio
-Year: 2019
+Year: 2020
 
 Third-party tools required:
 
