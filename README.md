@@ -4,7 +4,7 @@
 
 * From publication *"Scoring-matrices from structural descriptors improve MHC class II motifs of bound peptides"*
 * Bioinformatics Journal (Oxford), 2019
-* Authors: Rodrigo Ochoa, Roman Laskowski, Alessandro Laio, Janet Thornton, Pilar Cossio
+* Authors: Rodrigo Ochoa, Roman Laskowski, Janet Thornton, Pilar Cossio
 
 ## Purpose
 
