@@ -4,7 +4,7 @@
 
 * From publication *"Scoring-matrices calculated from structural descriptors improve MHC class II motifs for predicting bound peptides"*
 * Bioinformatics Journal (Oxford), 2020
-* Authors: Rodrigo Ochoa, Roman Laskowski, Janet Thornton, Pilar Cossio
+* Authors: Rodrigo Ochoa, Roman A. Laskowski, Janet M. Thornton, Pilar Cossio
 
 ## Purpose
 
@@ -69,7 +69,7 @@ The model was completed
 ```
 In addition to the prediction of the cores, the peptides are aligned to evaluate how similar they are, and identities are mapped in the full sequence and in the core region. This is useful to understand how different is the sequence content of the peptides from the available peptide template.
 
-### Run additional sampling using bakcrub
+### Run additional sampling using Rosetta Backrub
 
 After modelling the peptides, it is possible to run a simulation of the system using the backrub method from Rosetta. For that purpose, just run the script with the following options:
 
