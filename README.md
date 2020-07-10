@@ -2,8 +2,7 @@
 
 ## Package to predict core region of peptides bound to MHC class II structures, model new peptides and run simulations
 
-* From publication *"Scoring-matrices calculated from structural descriptors improve MHC class II motifs for predicting bound peptides"*
-* Bioinformatics Journal (Oxford), 2020
+* From publication *"Impact of structural interactions to predict the effect of single-point mutations in MHC class II peptide binders"*, 2020
 * Authors: Rodrigo Ochoa, Roman A. Laskowski, Janet M. Thornton, Pilar Cossio
 
 ## Purpose
@@ -58,7 +57,7 @@ Predicted core with sequence-based motifs:  SIGKTYKPE
 
 To model peptides of interest in an allele with crystal structure available, the user can select from four alleles that have available crystals in the local folder provided. Based on the selection, the script reads the file `list_MHC_crystals.txt` and select the corresponding structure. One way to run the script is as follows:
 
-`python3.5 model_peptides_MHC_complexes.py -l list_peptides.txt -m model -a 0301`
+`python3.5 model_peptides_MHC_complexes.py -l list_peptides.txt -m model -a 0101`
 
 The file `<sequence>_modelled.pdb` will be generated. In addition, a report with the statistics of the modelling will be created. By default the name of the file is `stats_peptide_models.txt`- However, the name can be changed with the `-o` flag. An example of the report is the following:
 
