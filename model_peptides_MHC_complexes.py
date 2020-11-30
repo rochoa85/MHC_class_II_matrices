@@ -3,10 +3,9 @@
 """
 Package to model peptides bound to MHC class II complexes and run backrub simulations
 
-From publication "Scoring-matrices calculated from structural descriptors improve MHC class II motifs for predicting bound peptides"
-Journal: Oxford Bioinformatics 
+From publication "Impact of structural observables from simulations to predict the effect of single-point mutations in MHC class II peptide binders"
 Authors: Rodrigo Ochoa, Roman Laskowski, Janet Thornton, Pilar Cossio
-Year: 2020
+Year: 2021
 
 Third-party tools required:
 
