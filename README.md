@@ -2,7 +2,7 @@
 
 ## Package to predict core region of peptides bound to MHC class II structures, model new peptides and run simulations
 
-* From publication *"Impact of structural interactions to predict the effect of single-point mutations in MHC class II peptide binders"*, 2021
+* From publication *"Impact of structural observables from simulations to predict the effect of single-point mutations in MHC class II peptide binders"*, 2021
 * Authors: Rodrigo Ochoa, Roman A. Laskowski, Janet M. Thornton, Pilar Cossio
 
 ## Purpose
